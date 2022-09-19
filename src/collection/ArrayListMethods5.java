@@ -39,7 +39,7 @@ public class ArrayListMethods5 {
 
         Object[] array = al1.toArray();
         String[] array2 = al1.toArray(new String[0]);
-        for (String s: array2) {
+        for (String s : array2) {
             System.out.println(s);
         }
 
