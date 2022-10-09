@@ -1,5 +1,7 @@
 package collection.map_interface;
 
+import generics.theGame.Student;
+
 import java.util.LinkedHashMap;
 
 public class LinkedHashMapEx {
