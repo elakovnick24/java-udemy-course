@@ -1,0 +1,10 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(•’Ÿâûÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "al3".(³ªËÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÆœÊşÿÿÿÿ
+C
+java:S1481"(Remove this unused "al3" local variable.(³ªËÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÊˆûûÿÿÿÿ8üóÜ»µ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÀŠêüÿÿÿÿ8üóÜ»µ0

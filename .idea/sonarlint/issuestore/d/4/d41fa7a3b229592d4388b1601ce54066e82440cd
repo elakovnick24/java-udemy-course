@@ -1,0 +1,7 @@
+
+x
+java:S1319"bThe type of "al" should be an interface such as "List" rather than the implementation "ArrayList".(ö“İ·
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8Æã´‘µ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8°µ‘µ0
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÚÆŠ›

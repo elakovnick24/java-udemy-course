@@ -1,0 +1,8 @@
+
+T
+java:S1854"7Remove this useless assignment to local variable "st7".(úâ€ÿ8¬òÌäµ0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€®ãÃÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ’ıûÿÿÿÿ8ÜËäµ0
+E
+java:S1481"(Remove this unused "st7" local variable.(úâ€ÿ8°òÌäµ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(€®ãÃÿÿÿÿÿ8ñ§Îäµ0

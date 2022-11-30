@@ -1,0 +1,7 @@
+
+Q	java:S125	"<This block of commented-out lines of code should be removed.(ÖÕ»
+Q
+java:S4838"6Change "Object" to the type handled by the Collection.(Á³šúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ôıî²
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ğ™Ãßıÿÿÿÿ

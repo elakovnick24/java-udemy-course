@@ -1,0 +1,9 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÎŒ½‚úÿÿÿÿ
+q
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÎŒ½‚úÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "ht".(ÎŒ½‚úÿÿÿÿ
+B
+java:S1481"'Remove this unused "ht" local variable.(ÎŒ½‚úÿÿÿÿ

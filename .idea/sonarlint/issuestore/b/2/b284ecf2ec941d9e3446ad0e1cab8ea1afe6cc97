@@ -1,0 +1,15 @@
+
+R
+java:S49730"<Strings and Boxed types should be compared using "equals()".(à„Â£
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©‹¹‰úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·Ê¤’ÿÿÿÿÿ
+o
+java:S1210/"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¹’Äâ
+V	java:S125;"<This block of commented-out lines of code should be removed.(ðüü³øÿÿÿÿ
+H
+java:S1135:"2Complete the task associated to this TODO comment.(ý²™ê
+H
+java:S1135<"2Complete the task associated to this TODO comment.(ý²™ê
+H
+java:S1135>"2Complete the task associated to this TODO comment.(ý²™ê
+X	java:S125G"<This block of commented-out lines of code should be removed.(¡ÈÈ¬8£³Ëµ0
