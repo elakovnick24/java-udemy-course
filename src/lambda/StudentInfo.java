@@ -1,12 +1,13 @@
 package lambda;
 
 import java.util.ArrayList;
+import java.util.function.Predicate;
 
 public class StudentInfo {
 
-    void testStudents(ArrayList<Student> a1, StudentsCheck s c) {
+    void testStudents(ArrayList<Student> a1, Predicate<Student> pr) {
         for (Student student : a1) {
-            if(sc.check(student)) {
+            if(pr.test(student)) {
                 System.out.println(student);
             }
         }
@@ -61,9 +62,27 @@ public class StudentInfo {
             // return s.age < 30;
             // }
             // });
+
+            // StudentsCheck sc = p -> {
+            //     return p.avgGrade > 8;
+            // }
+
+            // info.testStudents(students, sc);
+
+            Predicate<Student> p1 = student -> student.avgGrade > 7.5;
+            Predicate<Student> p2 = student -> student.sex == 'm';
+
+            info.testStudents(students, p1);
+            info.testStudents(students, p2);
+            info.testStudents(students, p1.and(p2));
+            info.testStudents(students, p1.or(p2));
+            info.testStudents(students, p1.negate());
+            System.out.println("-----------------------------------------");
+
             info.testStudents(students, (Student s) -> {
                 return s.age < 30;
             });
+
             System.out.println("-----------------------------------------");
             info.testStudents(students, (Student s) -> {
                 return s.avgGrade > 8;
@@ -86,11 +105,11 @@ public class StudentInfo {
         boolean check(Student s);
     }
 
-class CheckOverGrade implements StudentsCheck {
+// class CheckOverGrade implements StudentsCheck {
 
-    @Override
-    public boolean check(Student s) {
-        return s.avgGrade > 8;
-    }
+//     @Override
+//     public boolean check(Student s) {
+//         return s.avgGrade > 8;
+//     }
 
-}
+// }
