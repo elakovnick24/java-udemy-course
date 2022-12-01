@@ -8,7 +8,7 @@ public class Test3 {
     public static ArrayList<Car> createThreeCars(Supplier<Car> carSupplier) {
         ArrayList<Car> a1 = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
-            a1.add(carSupplier.get());
+            a1.add(carSupplier.get()); 
         }
         return a1;
     }

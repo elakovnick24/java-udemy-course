@@ -1,6 +1,8 @@
 package lambda;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class StudentInfo {
@@ -98,6 +100,19 @@ public class StudentInfo {
             // info.printStudentsUnderAge(students, 30);
             // System.out.println("-----------------------------------------");
             // info.printStudentsMixCondition(students, 7, 30, 'm');
+
+            Function<Student, Double> f = student -> student.avgGrade;
+            double res = avgOfSmth(students,student -> student.avgGrade);
+            System.out.println(res);
+        }
+
+        private static double avgOfSmth(List<Student> list, Function<Student, Double> f) {
+            double result = 0;
+            for (Student st : list) {
+                result += f.apply(st);
+            }
+            result = result / list.size();
+            return result;
         }
     }
 
