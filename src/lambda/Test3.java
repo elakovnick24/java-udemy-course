@@ -1,9 +1,8 @@
 package lambda;
 
 import java.util.ArrayList;
+import java.util.function.Consumer;
 import java.util.function.Supplier;
-
-import nested_classes.static_nested_class.Car;
 
 public class Test3 {
     public static ArrayList<Car> createThreeCars(Supplier<Car> carSupplier) {
@@ -14,10 +13,21 @@ public class Test3 {
         return a1;
     }
 
+    public static void changeCar(Car car, Consumer<Car> carConsumer) {
+        carConsumer.accept(car);
+    }
+
     public static void main(String[] args) {
         ArrayList<Car> ourCars = createThreeCars(() -> new Car("Nissan Tiida", "Silver", 1.6));
         System.out.println("Our Cars: " + ourCars);
+
+        changeCar(ourCars.get(0), car -> {
+            car.color = "red";
+            car.engine = 2.4;
+            System.out.println("Upgrated car: " + car);
+        });
     }
+
 }
 
 class Car {
