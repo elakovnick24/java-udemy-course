@@ -45,8 +45,6 @@ U
 %src/collection/ArrayListMethods4.java,1/e/1ebd273c4b16aa287de573fa717f4913e80ff806
 U
 %src/collection/ArrayListMethods5.java,5/b/5bff4a1cfb882bb099ead6fe1311753f37322c17
-Q
-!src/collection/LinkedListEx1.java,a/2/a2dc32ee478a8303bb021047b88cef61a5a17267
 ]
 -src/collection/map_interface/HashTableEx.java,2/f/2f560d47b044370b5ec436bbd0377a7eb3dd3f39
 W
