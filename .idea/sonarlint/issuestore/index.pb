@@ -1,10 +1,6 @@
 
 [
 +src/collection/set_interface/HashSetEx.java,2/f/2f4b2e0cbca891e46b9b439a7c31192c7bf4a823
-J
-src/comparation/Test1.java,9/7/979e4f743b379da886ae93686eafaa95a91ed6fb
-J
-src/comparation/Test2.java,b/2/b284ecf2ec941d9e3446ad0e1cab8ea1afe6cc97
 G
 src/generics/Test1.java,c/9/c9dbcd5e761db0f31e0b0a1c353e9a8c2a1e042e
 S
@@ -48,6 +44,28 @@ U
 ]
 -src/collection/map_interface/HashTableEx.java,2/f/2f560d47b044370b5ec436bbd0377a7eb3dd3f39
 W
-'src/collection/ListIteratorExample.java,d/b/dbe16dd94f939ba7d2febe836058cb65f4f9d43a
+'src/collection/ListIteratorExample.java,d\b\dbe16dd94f939ba7d2febe836058cb65f4f9d43a
 S
-#src/collection/IteratorExample.java,c/9/c9bdf57e2b9b7402b5835febf7468deefcea5a41
+#src/collection/IteratorExample.java,c\9\c9bdf57e2b9b7402b5835febf7468deefcea5a41
+P
+ src/collection/BinarySearch.java,2\2\22722f8d8df889ac7bed6f45f40b9168a1f74d16
+P
+ src/collection/StackExample.java,6\e\6e5c351e4e4ecd44a76672a103deaecc6cddc105
+Q
+!src/collection/LinkedListEx1.java,a\2\a2dc32ee478a8303bb021047b88cef61a5a17267
+=
+UdemyJava.iml,e\4\e455b18b2008316d2d0dd0522cacad0b8957aa6b
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+W
+'src/collection/my_linked_list/Test.java,c\5\c53342c3db8a1262011a7275a77dc245da7617e3
+_
+/src/collection/my_linked_list/MyLinkedList.java,0\2\02eb0c49229290cea181a1c336405b3a34886057
+J
+src/comparation/Test2.java,b\2\b284ecf2ec941d9e3446ad0e1cab8ea1afe6cc97
+J
+src/comparation/Test1.java,9\7\979e4f743b379da886ae93686eafaa95a91ed6fb
+L
+src/comparation/NewTest.java,4\3\43ab7a485076a38d95b1f0aabff45fd5b085ff00
+J
+src/comparation/Test3.java,6\e\6ebb1e279c2498926a1dfcb24dd807f1bb9b4d32

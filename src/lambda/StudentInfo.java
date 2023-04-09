@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
+/*
 public class StudentInfo {
 
     void testStudents(ArrayList<Student> a1, Predicate<Student> pr) {
@@ -16,30 +17,30 @@ public class StudentInfo {
     }
 }
 
-    // void printsStudentsOverGrade(ArrayList<Student> a1, double grade) {
-    // for (Student student : a1) {
-    // if(student.avgGrade > grade) {
-    // System.out.println(student);
-    // }
-    // }
-    // }
+     void printsStudentsOverGrade(ArrayList<Student> a1, double grade) {
+     for (Student student : a1) {
+     if(student.avgGrade > grade) {
+     System.out.println(student);
+     }
+     }
+     }
 
-    // void printStudentsUnderAge(ArrayList<Student> a1, int age) {
-    // for (Student student : a1) {
-    // if(student.age > age) {
-    // System.out.println(student);
-    // }
-    // }
-    // }
+     void printStudentsUnderAge(ArrayList<Student> a1, int age) {
+     for (Student student : a1) {
+     if(student.age > age) {
+     System.out.println(student);
+     }
+     }
+     }
 
-    // void printStudentsMixCondition(ArrayList<Student> a1, int age, double grade,
-    // char sex) {
-    // for (Student student : a1) {
-    // if(student.age > age && student.avgGrade < grade && student.sex ==sex) {
-    // System.out.println(student);
-    // }
-    // }
-    // }
+     void printStudentsMixCondition(ArrayList<Student> a1, int age, double grade,
+     char sex) {
+     for (Student student : a1) {
+     if(student.age > age && student.avgGrade < grade && student.sex ==sex) {
+     System.out.println(student);
+     }
+     }
+     }
 
     class Test {
         public static void main(String[] args) {
@@ -120,11 +121,12 @@ public class StudentInfo {
         boolean check(Student s);
     }
 
-// class CheckOverGrade implements StudentsCheck {
+ class CheckOverGrade implements StudentsCheck {
 
-//     @Override
-//     public boolean check(Student s) {
-//         return s.avgGrade > 8;
-//     }
+     @Override
+     public boolean check(Student s) {
+         return s.avgGrade > 8;
+     }
 
-// }
+ }
+*/

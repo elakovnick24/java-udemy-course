@@ -1,0 +1,13 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÆœÊşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÆœÊşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÆœÊşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òÏåª
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(óØáüÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(óØáüÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(¿ÕÓÿÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(×Æáî
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(×Æáî
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(äÃà¶úÿÿÿÿ
+o
+java:S1210U"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¹’Äâ
